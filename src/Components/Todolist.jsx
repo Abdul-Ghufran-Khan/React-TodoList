@@ -8,7 +8,7 @@ export default function Todolist({ todos, onDelete }) {
           <h3>{todo.title}</h3>
           <div className=" mx-0">
             <MdDelete 
-            className="text-3xl hover:text-red-600" onClick={() => onDelete(todo.id)}/>
+            className="text-3xl hover:text-red-700" onClick={() => onDelete(todo.id)}/>
           </div>
         </div>
       ))}
